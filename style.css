@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.randomizer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: antiquewhite;
+  width: 280px;
+  border-radius: 10px;
+}
+.min_max {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-left: 20px;
+}
+.min {
+  width: 20px;
+}
+
+.max {
+  width: 20px;
+}
+
+input {
+  width: 70px;
+}
+.pick {
+  margin-top: 10px;
+  width: 100px;
+}
+.pick button {
+  background-color: greenyellow;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  font-size: 20px;
+}
+.result_title {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.result {
+  background-color: cyan;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin-left: 40px;
+}
